@@ -11,7 +11,7 @@ setup(
     long_description_content_type='text/markdown',
     author="Sathya Narayanan",
     author_email="impssn@gmail.com",
-    url="https://github.com/yourusername/balance-point-clustering",
+    url="https://github.com/Impssn/Balance-Point-Clustering",
     packages=find_packages(),
     install_requires=[
         'numpy',
