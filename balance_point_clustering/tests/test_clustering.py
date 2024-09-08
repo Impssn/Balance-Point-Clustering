@@ -11,11 +11,11 @@ class TestBalancePointClustering(unittest.TestCase):
         }
         self.df = pd.DataFrame(self.data)
 
-    def test_cluster_with_specified_no_clusters(self):
+    def test_cluster_with_specified_no_clusters(self):    #Custom clustering Test Case
         clusters = balance_point_clustering(self.df, no_clusters=3)
         self.assertEqual(len(clusters), 3)
 
-    def test_cluster_with_auto_no_clusters(self):
+    def test_cluster_with_auto_no_clusters(self):         #Dynamic clustering Test Case 
         clusters = balance_point_clustering(self.df)
         self.assertGreaterEqual(len(clusters), 1)
 
