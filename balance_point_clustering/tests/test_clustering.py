@@ -20,4 +20,4 @@ class TestBalancePointClustering(unittest.TestCase):
         self.assertGreaterEqual(len(clusters), 1)
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(argv=[''], exit=False)
